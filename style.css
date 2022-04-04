@@ -1,0 +1,124 @@
+body {
+  background-color: #82cdff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.winner-title {
+  background-color: #0099ff;
+  width: 430px;
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 33px;
+  font-weight: 700;
+  border-radius: 12px 12px 0 0;
+}
+
+.scoreboard {
+  width: 950px;
+  height: 148px;
+  background-color: #0099ff;
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  border-radius: 17px;
+}
+
+.scoreboard-player-name {
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.score {
+  width: 130px;
+  height: 120px;
+  font-size: 104px;
+  background-color: #d8f1ff;
+  border-radius: 17px;
+  font-weight: 900;
+  text-align: center;
+  line-height: 108px;
+  color: #0099ff;
+}
+
+.vs-small {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 58px;
+  margin: 0 20px;
+}
+
+.battle-field {
+  margin-top: 56px;
+  height: 414px;
+  display: flex;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.button {
+  width: 220px;
+  height: 80px;
+  background-color: #0099ff;
+  font-size: 44px;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 300ms;
+  box-shadow: 3px 3px 10px #000000;
+}
+
+.button:hover {
+  border: 1px solid #0099ff;
+  background-color: transparent;
+  color: #0099ff;
+  box-shadow: 1px 1px 1px #000000;
+}
+
+.field-box {
+  width: 900px;
+  height: 414px;
+  background-color: #0099ff;
+  margin: 0 19px;
+  border: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px;
+  box-sizing: border-box;
+}
+
+.field {
+  width: 464px;
+  height: 345px;
+  background-color: #d8f1ff;
+  border-radius: 17px;
+}
+
+.vs-big {
+  font-size: 104px;
+  color: #ffffff;
+  font-weight: 900;
+}
+
+.config {
+  margin-top: 22px;
+}
+
+.button-reset {
+  margin-left: 101px;
+}
