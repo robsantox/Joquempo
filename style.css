@@ -126,3 +126,7 @@ body {
 .move-image {
   width: 70%;
 }
+
+.field-player-2 img {
+  transform: scalex(-1);
+}
