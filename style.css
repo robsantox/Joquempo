@@ -90,11 +90,11 @@ body {
 }
 
 .field-box {
-  width: 900px;
+  width: 1313px;
   height: 414px;
   background-color: #0099ff;
+  border-radius: 17px;
   margin: 0 19px;
-  border: 17px;
   display: flex;
   justify-content: space-between;
   align-items: center;
